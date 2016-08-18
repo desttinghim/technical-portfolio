@@ -1,9 +1,107 @@
 
-header {
-	background-color: #06d6a0;
-}
-
+/*
+ * Globals
+ */
 body {
 	background-color: #fffcf9;
-	color: #26547c;
+	color: #555;
+	margin-top: 50px; /*Required padding for static navbar*/
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333;
+}
+
+/*
+ * Override Bootstrap's default container.
+ */
+/*@media (min-width: 1200px) {
+	.container {
+		width: 700px;
+	}
+}*/
+
+/*
+ * Navigation
+ */
+.navbar {
+	background-color: #26547c;
+}
+
+.blog-nav-item {
+	position: relative;
+	display: inline-block;
+	padding: 10px;
+	font-weight: 500;
+	color: #fffcf9;
+}
+
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+	color: #fff;
+	text-decoration: none;
+}
+
+/*
+ * Blog name and description
+ */
+.portfolio-header {
+	display: block;
+	width: 100%;
+	text-align: center;
+	background: url("http://placehold.it/1900x500") no-repeat center center scroll;
+	background-size: cover;
+}
+
+.headline {
+	padding: 120px 0;
+}
+.headline h1 {
+	font-size: 90px;
+	background: rgba(255,255,255,0.9);
+}
+.headline h2 {
+	font-size: 40px;
+	background: rgba(255,255,255,0.9);
+}
+
+hr {
+	margin-bottom: 50px;
+}
+
+.featurette {
+	overflow: hidden;
+}
+
+.featurette-image.pull-left {
+	margin-right: 40px;
+}
+.featurette-image.pull-right {
+	margin-left: 40px;
+}
+
+.featurette-heading {
+	font-size: 50px;
+}
+/*
+ * Footer
+ */
+
+.blog-footer {
+	padding: 40px 0;
+	color: #999;
+	text-align: center;
+	background-color: #f9f9f9;
+	border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+	margin-bottom: 0;
 }

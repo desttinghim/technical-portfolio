@@ -15,22 +15,77 @@
 
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="/theme/style.css">
 </head>
 <body>
 
 	<!-- Header Bar -->
-	<nav class="navbar navbar-default">
-		<div class="navbar-header">
-			<a class="navbar-brand" href="#">
-				<img alt="Brand" src="images/logo.svg" height="24" width="24" />
-			</a>
-		</di>
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<img alt="Louis Pearson Logo" src="/images/logo.svg" height="20" />
+				</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li>
+						<a class="blog-nav-item" href="#about">About</a>
+					</li>
+					<li>
+						<a class="blog-nav-item" href="#games">Games</a>
+					</li>
+					<li>
+						<a class="blog-nav-item" href="#programs">Programs</a>
+					</li>
+					<li>
+						<a class="blog-nav-item" href="#websites">Websites</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</nav>
 
-	<!-- About Me -->
-	<article>
-		
-	</article>
+	<!-- Header -->
+	<header class="portfolio-header">
+		<div class="headline">
+			<div class="container">
+				<h1>Louis Pearson</h1>
+				<h2>Programming Portfolio</h2>
+			</div>
+		</div>
+	</header>
+
+	<!-- Page Content -->
+	<div class="container">
+		<hr id="about" />
+
+		<div class="featurette">
+			<!-- About Me -->
+			<img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+			<h2 class="featurette-heading">About <span class="text-muted">Louis Pearson</span></h2>
+			<p class="lead">My name is Louis Pearson. I have taught myself how to program over seven years. I have learned many langauges, such as HTML, CSS, JavaScript, Haxe, Java, C/C++, and Python.</p>
+		</div>
+
+		<hr id="games" />
+
+		<div class="featurette">
+			<img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+			<h2 class="featurette-heading">Games</h2>
+			<p></p>
+		</div>
+	</div> 	<!-- Container -->
+
+	<footer class="blog-footer">
+		<p>Portfolio, built with <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/desttinghim">@desttinghim</a>.</p>
+	</footer>
 
 </body>
 </html>
