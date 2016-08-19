@@ -91,6 +91,29 @@ hr {
 .featurette-heading {
 	font-size: 50px;
 }
+
+h2 {
+	text-align: center;
+	font-size: 50px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	/*width: 70%;*/
+	height: 500px;
+	margin: auto;
+}
+
+.carousel-inner > .item > .carousel-caption > h3 {
+	text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;
+}
+
+
+.carousel-inner > .item > .carousel-caption > p {
+	font-size: 16px;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
 /*
  * Footer
  */
